@@ -114,7 +114,7 @@ function CategoryList(props: Props) {
               {!props.hiddenImages && image &&
                 (
                   <figure>
-                    <Image 
+                    <Image
                       class="card w-full"
                       src={image}
                       alt={description || label || tag}
