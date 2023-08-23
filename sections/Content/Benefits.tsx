@@ -92,7 +92,7 @@ export default function Benefits(
     <>
       {!layout?.variation || layout?.variation === "Simple"
         ? (
-          <div class="w-full container px-4 py-8 flex flex-col gap-8 lg:gap-10 lg:py-10 lg:px-0">
+          <div class="w-full container px-8 py-8 flex flex-col gap-8 lg:gap-10 lg:py-10 lg:px-10">
             <Header
               title={title}
               description={description}
